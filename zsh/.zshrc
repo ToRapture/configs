@@ -95,6 +95,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+include() {
+    [[ -f "$1" ]] && source "$1"
+}
+
+# Specific
+# Include configs for this user
+include ~/.torapture_specific
 
 # Alias
 alias diff=colordiff
