@@ -104,5 +104,5 @@ include() {
 include ~/.torapture_specific
 
 # Alias
-alias diff=colordiff
+alias diff="colordiff -u"
 
