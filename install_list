@@ -2,9 +2,7 @@
 colordiff
 
 # ZSH
+git
 colored-man-pages
 zsh-syntax-highlighting
-
-# Vim
-vundle: git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
