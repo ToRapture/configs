@@ -105,4 +105,4 @@ include ~/.torapture_specific
 
 # Alias
 alias diff="colordiff -u"
-
+alias utc="date -u"
