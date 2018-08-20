@@ -2,7 +2,8 @@
 \*nix终端内工具配置
 
 # Install
-
+`$ cd ~ && ln -s $repo/vim/.vimrc ./`
+`$ cd ~ && ln -s $repo/zsh/.zshrc ./`
 ## Terminal
 colordiff
 `$ brew install colordiff`
