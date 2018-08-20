@@ -3,6 +3,7 @@
 
 # Install
 `$ cd ~ && ln -s $repo/vim/.vimrc ./`
+
 `$ cd ~ && ln -s $repo/zsh/.zshrc ./`
 ## Terminal
 colordiff
