@@ -105,5 +105,7 @@ include() {
 include ~/.torapture_specific
 
 # Alias
+alias less="less -i"
 alias diff="colordiff -u"
 alias utc="date -u"
+alias spp="git stash && git pull -r && git stash pop"
