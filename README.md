@@ -6,8 +6,7 @@
 
 `$ cd ~ && ln -s $repo/zsh/.zshrc ./`
 ## Terminal
-colordiff
-`$ brew install colordiff`
+`$ ./mac/brew_install.sh`
 
 ## ZSH
 `$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
