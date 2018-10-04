@@ -11,7 +11,6 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 source ~/.torapture_specific 2>/dev/null
-source ~/fuck 2>/dev/null
 
 # alias
 alias less="less -i"
