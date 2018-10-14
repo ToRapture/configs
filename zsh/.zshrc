@@ -15,6 +15,7 @@ source ~/.torapture_specific 2>/dev/null
 # alias
 alias less="less -i"
 alias diff="colordiff -u"
-alias utc="date -u"
+alias utc="date -u \"+%Y-%m-%d %H:%M:%S\""
+alias unix="date -u +%s"
 alias spp="git stash && git pull -r && git stash pop"
 
