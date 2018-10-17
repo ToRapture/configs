@@ -12,10 +12,15 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 source ~/.torapture_specific 2>/dev/null
 
-# alias
+# easy 
 alias less="less -i"
 alias diff="colordiff -u"
-alias utc="date -u \"+%Y-%m-%d %H:%M:%S\""
+
+# time
+alias utc='date -u "+%Y-%m-%d %H:%M:%S"'
 alias unix="date -u +%s"
+alias now='date "+%Y-%m-%d %H:%M:%S"'
+
+# git
 alias spp="git stash && git pull -r && git stash pop"
 
