@@ -2,6 +2,7 @@
 
 brew install autoconf
 brew install automake
+brew install bison
 brew install cabextract
 brew install cmake
 brew install cmatrix
@@ -30,12 +31,15 @@ brew install libpng
 brew install libtiff
 brew install libtool
 brew install libunistring
+brew install lua
 brew install mpfr
 brew install mycli
+brew install ncurses
 brew install node
 brew install openssl
 brew install p7zip
 brew install pcre
+brew install pcre2
 brew install python
 brew install python@2
 brew install readline
@@ -50,4 +54,5 @@ brew install winetricks
 brew install xz
 brew install youtube-dl
 brew install zeromq
+brew install zsh
 brew install zsh-syntax-highlighting
