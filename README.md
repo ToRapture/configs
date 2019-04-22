@@ -8,7 +8,7 @@
 ### SpaceVim
 `$ curl -sLf https://spacevim.org/cn/install.sh | bash`
 
-`$ cp ~ && ln -s $repo/vim/.SpaceVim.d ./`
+`$ cd ~ && ln -s $repo/vim/.SpaceVim.d ./`
 
 ## Terminal
 `$ $repo/mac/brew_install.sh`
