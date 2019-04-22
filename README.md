@@ -10,6 +10,13 @@
 
 `$ cd ~ && ln -s $repo/vim/.SpaceVim.d ./`
 
+#### Font
+`$ brew tap caskroom/fonts`
+
+`$ brew cask install font-hack-nerd-font`
+
+设置`Non-ASCII Font`为`Hack Nerd Font`
+
 ## Terminal
 `$ $repo/mac/brew_install.sh`
 
