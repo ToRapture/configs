@@ -17,6 +17,9 @@
 
 设置`Non-ASCII Font`为`Hack Nerd Font`
 
+#### Dependence
+`$ pip3 install jedi`
+
 ## Terminal
 `$ $repo/mac/brew_install.sh`
 
