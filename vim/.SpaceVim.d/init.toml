@@ -32,6 +32,9 @@
 
 # Enable autocomplete layer
 [[layers]]
+name = "default"
+
+[[layers]]
 name = 'autocomplete'
 auto-completion-return-key-behavior = "complete"
 auto-completion-tab-key-behavior = "smart"
