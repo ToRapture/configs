@@ -23,6 +23,7 @@
     buffer_index_type = 4
     enable_tabline_filetype_icon = true
     enable_statusline_mode = true
+    default_indent = 4
 
     # 关闭相对行号
     relativenumber = false
