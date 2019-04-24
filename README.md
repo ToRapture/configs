@@ -20,8 +20,12 @@
 设置终端的`Non-ASCII Font`为`Hack Nerd Font`
 
 #### Dependence
+
 ##### Python
 `$ pip3 install jedi`
+
+##### GoLang
+`vim :GoInstallBinaries`
 
 ## Terminal
 `$ $repo/mac/brew_install.sh`
