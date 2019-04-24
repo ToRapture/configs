@@ -49,3 +49,6 @@ name = "git"
 
 [[layers]]
 name = "lang#python"
+
+[[layers]]
+name = "lang#c"
