@@ -27,6 +27,9 @@
 ##### GoLang
 `vim :GoInstallBinaries`
 
+##### YouCompleteMe
+`$ cd ~/.cache/vimfiles/repos/github.com/Valloric/YouCompleteMe && git submodule update --init --recursive && ./install.py --clang-completer --go-completer`
+
 ## Terminal
 `$ $repo/mac/brew_install.sh`
 
