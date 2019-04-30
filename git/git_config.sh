@@ -6,7 +6,9 @@ git config --global core.editor vim
 git config --global core.quotepath false
 git config --global push.default simple
 git config --global diff.tool vimdiff  
-git config --global difftool.prompt No
+git config --global difftool.prompt false
+git config --global merge.tool vimdiff
+git config --global mergetool.prompt false
 git config --global log.date iso
 
 # alias
