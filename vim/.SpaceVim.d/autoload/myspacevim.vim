@@ -6,6 +6,9 @@ function! myspacevim#before() abort
     let g:vimfiler_direction = "topleft" " 文件栏置左
     let g:spacevim_enable_statusline_bfpath = 1 " 底部状态栏显示文件fullpath
 
+    " vim-go
+    let g:go_fmt_command = "goimports"
+
     " YouCompleteMe
     let g:spacevim_enable_ycm = 1 " 开启YouCompleteMe
     let g:ycm_global_ycm_extra_conf = "~/.cache/vimfiles/repos/github.com/Valloric/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py" " YouCompleteMe配置
