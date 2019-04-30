@@ -8,6 +8,8 @@ function! myspacevim#before() abort
 
     " vim-go
     let g:go_fmt_command = "goimports"
+    let g:go_highlight_fields = 1
+    let g:go_highlight_types = 1
 
     " YouCompleteMe
     let g:spacevim_enable_ycm = 1 " 开启YouCompleteMe
