@@ -14,3 +14,4 @@ git config --global log.date iso
 # alias
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)<%an>%Creset' --abbrev-commit --"
 git config --global alias.l "log --stat"
+git config --global alias.showtool "!showci () { rev=\${1:-HEAD}; git difftool \$rev~1 \$rev; }; showci \$1"
