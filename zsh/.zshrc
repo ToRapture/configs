@@ -12,9 +12,7 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 source ~/.torapture_specific 2>/dev/null
 
-# easy 
 alias less="less -i"
-alias diff="colordiff -u"
 
 # time
 alias utc='date -u "+%Y-%m-%d %H:%M:%S"'
