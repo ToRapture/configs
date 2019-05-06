@@ -7,9 +7,9 @@ function! myspacevim#before() abort
     let g:spacevim_enable_statusline_bfpath = 1 " 底部状态栏显示文件fullpath
 
     " vim-go
-    let g:go_fmt_command = "goimports"
-    let g:go_highlight_fields = 1
-    let g:go_highlight_types = 1
+    let g:go_fmt_command = "goimports" " 使用goimports进行format
+    let g:go_highlight_fields = 1 " 高亮成员
+    let g:go_highlight_types = 1 " 高亮类型
 
     " YouCompleteMe
     let g:spacevim_enable_ycm = 1 " 开启YouCompleteMe
