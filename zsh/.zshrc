@@ -6,6 +6,7 @@ plugins=(
   git
   colored-man-pages
   zsh-syntax-highlighting
+  zsh-autosuggestions
   z
 )
 
