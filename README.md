@@ -17,7 +17,8 @@ You can run `$ export repo=$(pwd)` to set `$repo`.
 ------
 
 # Git
-`$ $repo/git/gitconfig.sh`
+`$ $repo/git/gitconfig.sh`  
+On Windows, you should set environment variable `LESSCHARSET` to `utf-8` to correctly display Chinese on git log.
 
 ------
 
