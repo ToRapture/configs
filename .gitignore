@@ -1,6 +1,1 @@
-# vim
-.netrwhist
-
-# sublime
-Package Control.merged-ca-bundle
-oscrypto-ca-bundle.crt
+.vscode/

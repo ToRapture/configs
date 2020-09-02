@@ -1,6 +1,0 @@
-{
-    "shell_cmd": "g++-8 '${file}' -o '${file_path}/${file_base_name}' && osascript -e 'tell application \"iTerm\"\n    set newWindow to (create window with default profile)\n    tell current session of newWindow\n        write text \"clear && ${file_path}/${file_base_name} && echo \\\"Press any key to continue...\\\" && read && exit\" \n    end tell\nend tell\n'",
-    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
-    "working_dir": "${file_path}",
-    "selector": "source.c, source.c++"
-}

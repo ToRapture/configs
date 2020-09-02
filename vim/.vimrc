@@ -1,12 +1,12 @@
 syntax on
 set term=ansi
 set hlsearch
-colorscheme desert  
+colorscheme desert
 filetype on
 filetype plugin on
 filetype indent on
 set nu
-set softtabstop=4  
+set softtabstop=4
 set shiftwidth=4
 set tabstop=4
 set expandtab

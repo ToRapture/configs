@@ -19,9 +19,3 @@ alias less="less -i"
 alias utc='date -u "+%Y-%m-%d %H:%M:%S"'
 alias unix="date -u +%s"
 alias now='date "+%Y-%m-%d %H:%M:%S"'
-
-# git
-alias spp="git stash && git pull -r && git stash pop"
-function recu-pull {
-    find . -type d -depth $1 -exec git --git-dir={}/.git --work-tree=$PWD/{} pull -r \;
-}

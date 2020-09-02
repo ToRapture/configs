@@ -1,51 +1,29 @@
-# Install
+`$repo` represents directory path of this repo.  
+You can run `$ export repo=$(pwd)` to set `$repo`.
 
-## Vim
-
-### Normal
+# Vim
 `$ cd ~ && ln -s $repo/vim/.vimrc ./`
 
-### SpaceVim
-`$ curl -sLf https://spacevim.org/cn/install.sh | bash`
+------
 
-`$ cd ~ && ln -s $repo/vim/.SpaceVim.d ./`
-
-#### Font
-
-##### Mac
-`$ brew tap caskroom/fonts`
-
-`$ brew cask install font-hack-nerd-font`
-
-设置终端的`Non-ASCII Font`为`Hack Nerd Font`
-
-#### Dependence
-
-##### Python
-`$ pip3 install jedi`
-
-##### GoLang
-`vim :GoInstallBinaries`
-
-##### YouCompleteMe
-`$ cd ~/.cache/vimfiles/repos/github.com/Valloric/YouCompleteMe && git submodule update --init --recursive && ./install.py --clang-completer --go-completer`
-
-## Terminal
-`$ $repo/mac/brew_install.sh`
-
-## ZSH
-`$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-
+# ZSH
+`$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`  
 `$ cd ~ && ln -s $repo/zsh/.zshrc ./`
 
-### plugins
-`$ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
-
+## plugins
+`$ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`  
 `$ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
 
-## Sublime
-Package Control: https://packagecontrol.io/installation
+------
 
-OS X: `cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages && ln -s $repo/sublime/User ./`
+# Git
+`$ $repo/git/gitconfig.sh`
 
-Linux: `cd ~/.config/sublime-text-3/Packages && ln -s $repo/sublime/User ./`
+------
+
+# Font
+To use Windows Terminal or correctly use powerline, you have to use powerline fonts, after downloading the font, set the terminal to use the font you downloaded.  
+
+Fonts:
+* [microsoft/cascadia-code](https://github.com/microsoft/cascadia-code)
+* [powerline/fonts](https://github.com/powerline/fonts)
