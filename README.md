@@ -27,3 +27,8 @@ To use Windows Terminal or correctly use powerline, you have to use powerline fo
 Fonts:
 * [microsoft/cascadia-code](https://github.com/microsoft/cascadia-code)
 * [powerline/fonts](https://github.com/powerline/fonts)
+
+------
+
+# Windows Terminal
+Replace `settings.json` of Windows Terminal with `windows-terminal\settings.json`.
