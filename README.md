@@ -32,3 +32,8 @@ Fonts:
 
 # Windows Terminal
 Replace `settings.json` of Windows Terminal with `windows-terminal\settings.json`.
+
+------
+
+# Powershell
+Replace `$profile` of Powershell with `powershell\Microsoft.PowerShell_profile.ps1`.
