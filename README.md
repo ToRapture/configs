@@ -22,7 +22,10 @@ On Windows, you should set environment variable `LESSCHARSET` to `utf-8` to corr
 
 ------
 
-# Font
+# Windows Terminal
+Replace `settings.json` of Windows Terminal with `windows-terminal\settings.json`.
+
+## Font
 To use Windows Terminal or correctly use powerline, you have to use powerline fonts, after downloading the font, set the terminal to use the font you downloaded.  
 
 Fonts:
@@ -31,23 +34,19 @@ Fonts:
 
 ------
 
-# Windows Terminal
-Replace `settings.json` of Windows Terminal with `windows-terminal\settings.json`.
-
-------
-
 # Powershell
 Replace `$profile` of Powershell with `powershell\Microsoft.PowerShell_profile.ps1`.
 
 ------
 
-# Fonts for Chrome on Windows
-## Fonts
+# Chrome
+## Advanced Font Settings
+Download the `Advanced Font Settings` plugin and set fonts.  
+
+### Fonts
 * [Noto CJK](https://www.google.com/get/noto/help/cjk/) download `Super OpenType/CFF Collection (Super OTC)`
 * [Hack](https://sourcefoundry.org/hack/)
 
-## Advanced Font Settings
-Download the `Advanced Font Settings` plugin and set fonts.  
 
 ### Default
 * `Standard`: `Noto Sans CJK SC`
