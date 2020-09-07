@@ -38,3 +38,37 @@ Replace `settings.json` of Windows Terminal with `windows-terminal\settings.json
 
 # Powershell
 Replace `$profile` of Powershell with `powershell\Microsoft.PowerShell_profile.ps1`.
+
+------
+
+# Fonts for Chrome on Windows
+## Fonts
+* [Noto CJK](https://www.google.com/get/noto/help/cjk/) download `Super OpenType/CFF Collection (Super OTC)`
+* [Hack](https://sourcefoundry.org/hack/)
+
+## Advanced Font Settings
+Download the `Advanced Font Settings` plugin and set fonts.  
+
+### Default
+* `Standard`: `Noto Sans CJK SC`
+* `Serif`: `Noto Serif CJK SC`
+* `Sans-Serif`: `Noto Sans CJK SC`
+* `Fixed`: `Hack`
+
+### Simplified Han
+* `Standard`: `Noto Sans CJK SC`
+* `Serif`: `Noto Serif CJK SC`
+* `Sans-Serif`: `Noto Sans CJK SC`
+* `Fixed`: `Hack`
+
+### Traditional Han
+* `Standard`: `Noto Sans CJK TC`
+* `Serif`: `Noto Serif CJK TC`
+* `Sans-Serif`: `Noto Sans CJK TC`
+* `Fixed`: `Hack`
+
+### Japanese
+* `Standard`: `Noto Sans CJK JP`
+* `Serif`: `Noto Serif CJK JP`
+* `Sans-Serif`: `Noto Sans CJK JP`
+* `Fixed`: `Hack`
