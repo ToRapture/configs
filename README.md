@@ -71,3 +71,8 @@ Download the `Advanced Font Settings` plugin and set fonts.
 * `Serif`: `Noto Serif CJK JP`
 * `Sans-Serif`: `Noto Sans CJK JP`
 * `Fixed`: `Hack`
+
+------
+
+# Terminator
+`$ mkdir -p ~/.config/terminator && cd ~/.config/terminator && ln -s $repo/terminator/config ./`
