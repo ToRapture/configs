@@ -1,5 +1,7 @@
 [global_config]
 [keybindings]
+  split_horiz = <Primary><Shift>o
+  split_vert = <Primary><Shift>p
   switch_to_tab_1 = <Alt>1
   switch_to_tab_2 = <Alt>2
   switch_to_tab_3 = <Alt>3
@@ -17,8 +19,8 @@
     cursor_color = "#aaaaaa"
     font = Cascadia Code PL 14
     foreground_color = "#839496"
+    show_titlebar = False
     use_system_font = False
-    show_titlebar = false
 [layouts]
   [[default]]
     [[[window0]]]
