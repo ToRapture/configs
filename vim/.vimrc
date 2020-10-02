@@ -15,3 +15,8 @@ set ignorecase
 set list
 set showbreak=↪\ 
 set listchars=tab:→\ ,nbsp:␣,trail:•,eol:↲,precedes:«,extends:»
+
+set cursorline
+hi CursorLine cterm=NONE ctermbg=0 ctermfg=NONE
+set cursorcolumn
+hi CursorColumn cterm=NONE ctermbg=0 ctermfg=NONE
