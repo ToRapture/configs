@@ -11,3 +11,7 @@ set shiftwidth=4
 set tabstop=4
 set expandtab
 set ignorecase
+
+set list
+set showbreak=↪\ 
+set listchars=tab:→\ ,nbsp:␣,trail:•,eol:↲,precedes:«,extends:»
