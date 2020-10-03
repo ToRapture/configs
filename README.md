@@ -2,7 +2,9 @@
 You can run `$ export repo=$(pwd)` to set `$repo`.
 
 # Vim
-`$ cd ~ && ln -s $repo/vim/.vimrc ./`
+`$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`  
+`$ cd ~ && ln -s $repo/vim/.vimrc ./`  
+`$ vim +PluginInstall +qall`
 
 ------
 
