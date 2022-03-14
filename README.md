@@ -24,10 +24,7 @@ On Windows, you should set environment variable `LESSCHARSET` to `utf-8` to corr
 
 ------
 
-# Windows Terminal
-Replace `settings.json` of Windows Terminal with `windows-terminal\settings.json`.
-
-## Font
+# Font
 To use Windows Terminal or correctly use powerline, you have to use powerline fonts, after downloading the font, set the terminal to use the font you downloaded.  
 
 Fonts:
