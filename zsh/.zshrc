@@ -19,3 +19,7 @@ alias less="less -i"
 alias utc='date -u "+%Y-%m-%d %H:%M:%S"'
 alias unix="date -u +%s"
 alias now='date "+%Y-%m-%d %H:%M:%S"'
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
