@@ -1,5 +1,4 @@
 `$repo` represents directory path of this repo.  
-You can run `$ export repo=$(pwd)` to set `$repo`.
 
 # Vim
 `$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`  
