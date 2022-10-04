@@ -31,7 +31,11 @@ day() {
   if [[ -z $UNIX_TIMESTAMP ]]; then
     UNIX_TIMESTAMP=$(unix)
   fi
-  date -d @$UNIX_TIMESTAMP "+%Y-%m-%d %H:%M:%S"
+  if [[ $OSTYPE == "darwin"* ]]; then
+    date -r $UNIX_TIMESTAMP "+%Y-%m-%d %H:%M:%S"
+  else
+    date -d @$UNIX_TIMESTAMP "+%Y-%m-%d %H:%M:%S"
+  fi
 }
 
 day-ms() {
@@ -39,7 +43,11 @@ day-ms() {
   if [[ -z $UNIX_TIMESTAMP_MS ]]; then
     UNIX_TIMESTAMP_MS=$(unix-ms)
   fi
-  date -d @$(($UNIX_TIMESTAMP_MS / 1000)) "+%Y-%m-%d %H:%M:%S"
+  if [[ $OSTYPE == "darwin"* ]]; then
+    date -r $(($UNIX_TIMESTAMP_MS / 1000)) "+%Y-%m-%d %H:%M:%S"
+  else
+    date -d @$(($UNIX_TIMESTAMP_MS / 1000)) "+%Y-%m-%d %H:%M:%S"
+  fi
 }
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
