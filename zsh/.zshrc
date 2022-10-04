@@ -8,6 +8,7 @@ plugins=(
   zsh-syntax-highlighting
   zsh-autosuggestions
   z
+  docker
 )
 
 source $ZSH/oh-my-zsh.sh
