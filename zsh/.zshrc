@@ -20,6 +20,9 @@ alias less="less -i"
 alias utc='date -u "+%Y-%m-%d %H:%M:%S"'
 alias unix="date -u +%s"
 alias now='date "+%Y-%m-%d %H:%M:%S"'
+unix-ms() {
+  python3 -c 'import time; print(int(time.time() * 1000))'
+}
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
