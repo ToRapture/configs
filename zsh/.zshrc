@@ -12,7 +12,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-source ~/.torapture_specific 2>/dev/null
+source ~/.torapture-profile 2>/dev/null
 source ~/.profile 2>/dev/null
 
 alias less="less -i"
