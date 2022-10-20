@@ -1,15 +1,19 @@
-`$repo` represents directory path of this repo.  
+```
+$ git clone git@github.com:ToRapture/configs.git
+$ cd configs
+$ export REPO=$(realpath .)
+```
 
 # Vim
 `$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`  
-`$ cd ~ && ln -s $repo/vim/.vimrc ./`  
+`$ cd ~ && ln -s $REPO/vim/.vimrc ./`  
 `$ vim +PluginInstall +qall`
 
 ------
 
 # ZSH
 `$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`  
-`$ cd ~ && ln -s $repo/zsh/.zshrc ./`
+`$ cd ~ && ln -s $REPO/zsh/.zshrc ./`
 
 ## plugins
 `$ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`  
@@ -18,7 +22,7 @@
 ------
 
 # Git
-`$ $repo/git/gitconfig.sh`  
+`$ $REPO/git/gitconfig.sh`  
 On Windows, you should set environment variable `LESSCHARSET` to `utf-8` to correctly display Chinese on git log.
 
 ------
@@ -73,4 +77,4 @@ Download the `Advanced Font Settings` plugin and set fonts.
 ------
 
 # Terminator
-`$ mkdir -p ~/.config/terminator && cd ~/.config/terminator && ln -s $repo/terminator/config ./`
+`$ mkdir -p ~/.config/terminator && cd ~/.config/terminator && ln -s $REPO/terminator/config ./`
