@@ -6,4 +6,4 @@ Import-Module Terminal-Icons
 Set-PSReadLineOption -PredictionSource History
 
 # Alias
-Set-Alias which Get-Command
+Set-Alias which Get-Command -Scope Global
