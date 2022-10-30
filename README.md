@@ -28,16 +28,15 @@ On Windows, you should set environment variable `LESSCHARSET` to `utf-8` to corr
 ------
 
 # Font
-To use Windows Terminal or correctly use powerline, you have to use powerline fonts, after downloading the font, set the terminal to use the font you downloaded.  
-
 Fonts:
-* [microsoft/cascadia-code](https://github.com/microsoft/cascadia-code)
-* [powerline/fonts](https://github.com/powerline/fonts)
+* [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
+
+Use `CaskaydiaCove NF Mono` for Windows Terminal.
 
 ------
 
 # Powershell
-Replace `$profile` of Powershell with `powershell\Microsoft.PowerShell_profile.ps1`.
+`> .\powershell\setup.ps1`
 
 ------
 
