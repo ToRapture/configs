@@ -7,9 +7,16 @@ Invoke-Expression $user_profile
 
 "@
 
-$profile_content = Get-Content $PROFILE -Raw
+$profile_content = $null
+if (Test-Path $PROFILE) {
+    $profile_content = Get-Content $PROFILE -Raw
+}
+else {
+    New-Item $PROFILE -Force
+}
+
 if ($null -eq $profile_content -or !$profile_content.Contains($user_profile)) {
-    $head_content + (Get-Content $PROFILE -Raw) | Set-Content $PROFILE
+    $head_content + $profile_content | Set-Content $PROFILE
 }
 
 
@@ -38,7 +45,7 @@ else {
 }
 
 # Install Modules
-sudo Install-Module posh-git -Force
-sudo Install-Module Terminal-Icons -Force
-sudo Install-Module z -AllowClobber -Force
-sudo Install-Module PSReadLine -AllowClobber -Force
+Install-Module posh-git -Force
+Install-Module Terminal-Icons -Force
+Install-Module z -AllowClobber -Force
+Install-Module PSReadLine -AllowClobber -Force
