@@ -38,6 +38,8 @@ Use `CaskaydiaCove NF Mono` for Windows Terminal.
 ------
 
 # Powershell
+Need to install [brew](https://brew.sh/) first on non-Windows operating systems.
+
 `> .\powershell\setup.ps1`
 
 ------
