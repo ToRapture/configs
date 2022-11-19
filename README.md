@@ -1,20 +1,20 @@
 ```
 $ git clone git@github.com:ToRapture/configs.git
 $ cd configs
-$ export REPO=$(realpath .)
+$ export CONFIG_REPO=$(realpath .)
 ```
 
 # Vim
 `$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`  
-`$ cd ~ && ln -s $REPO/vim/.vimrc ./`  
+`$ cd ~ && rm -f .vimrc && ln -s $CONFIG_REPO/vim/.vimrc ./`  
 `$ vim +PluginInstall +qall`
 
 ------
 
 # ZSH
 `$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`  
-`$ cd ~ && ln -s $REPO/zsh/.zshrc ./`  
-`$ cd ~ && ln -s $REPO/zsh/.p10k.zsh ./`  
+`$ cd ~ && rm -f .zshrc && ln -s $CONFIG_REPO/zsh/.zshrc ./`  
+`$ cd ~ && rm -f .p10k.zsh && ln -s $CONFIG_REPO/zsh/.p10k.zsh ./`  
 
 ## plugins
 `$ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`  
@@ -24,7 +24,7 @@ $ export REPO=$(realpath .)
 ------
 
 # Git
-`$ $REPO/git/gitconfig.sh`  
+`$ $CONFIG_REPO/git/gitconfig.sh`  
 On Windows, you should set environment variable `LESSCHARSET` to `utf-8` to correctly display Chinese on git log.
 
 ------
@@ -80,4 +80,4 @@ Download the `Advanced Font Settings` plugin and set fonts.
 ------
 
 # Terminator
-`$ mkdir -p ~/.config/terminator && cd ~/.config/terminator && ln -s $REPO/terminator/config ./`
+`$ mkdir -p ~/.config/terminator && cd ~/.config/terminator && ln -s $CONFIG_REPO/terminator/config ./`
