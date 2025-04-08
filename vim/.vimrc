@@ -13,7 +13,6 @@ call vundle#begin() " alternatively, pass a path where Vundle should install plu
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'preservim/nerdtree'
 Plugin 'joshdick/onedark.vim'
-Plugin 'sheerun/vim-polyglot'  " recommended by onedark
 Plugin 'itchyny/lightline.vim'
 
 " All of your Plugins must be added before the following line
