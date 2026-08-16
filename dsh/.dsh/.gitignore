@@ -1,0 +1,8 @@
+# local credentials — never commit (contains DEEPSEEK_API_KEY)
+.credentials.yaml
+
+# runtime data — regenerated locally
+.anonymous-user-id
+sessions/
+storages/
+profiles/node_modules/
