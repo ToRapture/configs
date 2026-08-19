@@ -81,8 +81,3 @@ Download the `Advanced Font Settings` plugin and set fonts.
 
 # Terminator
 `$ mkdir -p ~/.config/terminator && cd ~/.config/terminator && ln -s $CONFIG_REPO/terminator/config ./`
-
-------
-
-# DSH (DeepSeek Harness)
-`$ cd ~ && rm -rf .dsh && ln -s $CONFIG_REPO/dsh/.dsh .dsh`
